@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatePicker">
+
+    <TextView
+        android:id="@+id/select_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="@string/select_date" />
+
+    <EditText
+        android:id="@+id/date_picker"
+        android:layout_width="wrap_content"
+        android:ems="15"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="@string/date_hint"
+        android:layout_below="@+id/select_date"
+        android:inputType="date"/>
+
+    <Button
+        android:id="@+id/go_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_date"
+        android:layout_toEndOf="@id/date_picker"
+        android:text="@string/go" />
+
+    <TextView
+        android:id="@+id/OR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_picker"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:text="@string/or" />
+
+    <TextView
+        android:id="@+id/saved_images_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OR"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="@string/gotoS" />
+
+    <Button
+        android:id="@+id/picker_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saved_images_text"
+        android:layout_centerInParent="true"
+        android:text="@string/gotoS" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="bbc">BBC News reader</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="lnws">Latest News</string>
+    <string name="svlstbtn">Saved List</string>
+    <string name="helpbtn">Help Menu</string>
+    <string name="hntrsn">What you liked in this news article?</string>
+    <string name="svdbbtn">Save</string>
+    <string name="dbartclettle">Favourite Articles</string>
+    <string name="rsn">What you liked in you last saved article is </string>
+    <string name="hdrttle">Help Menu</string>
+    <string name="fragment">Frgament Layout</string>
+    <string name="fhead">Headline</string>
+    <string name="fid">Id</string>
+    <string name="nasa">Nasa Image of the day</string>
+    <string name="hidef">Hide</string>
+    <string name="slctdarticle">Selected News Article</string>
+    <string name="title_activity_date_picker">DatePicker</string>
+    <string name="instr1">1. If you click on BBC News Reader you will be directed to an activity showing recent news</string>
+    <string name="instr2">2. After that, if you click on any of the news it again redirect you to another activity where you can add it to your saved list</string>
+    <string name="instr3">3. Or if you press the saved list button, you will reach to your saved list</string>
+    <string name="instr4">4. If you want to delete any of the saved articles just long press that article and press yes to delete it</string>
+    <string name="about1">1. App name is :- BBC News reader</string>
+    <string name="about2">2. App is created by :- Pranav Tiwari</string>
+    <string name="about3">3. Version Number is :- 2 </string>
+    <string name="Toast1">Here is your saved list</string>
+    <string name="snackbar1">You can see you previously saved favourite articles!</string>
+    <string name="help">Help</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_date">Select Date</string>
+    <string name="date_hint">YYYY-MM-DD</string>
+    <string name="go">GO</string>
+    <string name="or">OR</string>
+    <string name="gotoS">Go to Saved Images</string>
+    <string name="save">Save Image</string>
+    <string name="main">NASA Image of the Day</string>
+    <string name="saved">Saved Images</string>
+    <string name="url">URL</string>
+    <string name="hd">HD</string>
+    <string name="hide">Hide</string>
+</resources>

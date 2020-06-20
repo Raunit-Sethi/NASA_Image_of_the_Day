@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/BBC"
+        android:icon="@drawable/news"
+        android:title="@string/bbc"
+        app:showAsAction="always"
+        android:orderInCategory="50"
+        />
+    <item
+        android:id="@+id/NasaImage"
+        android:icon="@drawable/image"
+        android:title="@string/nasa"
+        app:showAsAction="always"
+        android:orderInCategory="50"
+        />
+</menu>
